@@ -12,6 +12,7 @@ This project includes the following files:
 
 1. The README.md :  explains how all of the scripts work and how they are connected
 2. The raw data : the raw data of the Human Activity Recognition Using Smartphones.
+[The data for the project] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)must be in the same working folder as 'run_analysis.R'
 3. A tidy data set : data set with the average of each variable for each activity and each subject (tidyData.csv).
 4. A code book  that describes each variable and its values in the tidy data set, the data, and any transformations or work that you performed to clean up the data describing  (CodeBook.md).  
 5. An explicit and exact recipe I used to go from 2 -> 3,4 (run_analysis.R)
