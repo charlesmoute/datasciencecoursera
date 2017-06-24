@@ -11,8 +11,8 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 This project includes the following files:
 
 1. The README.md :  explains how all of the scripts work and how they are connected
-2. The raw data : the raw data of the Human Activity Recognition Using Smartphones.
-[The data for the project] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)must be in the same working folder as 'run_analysis.R'
+2. The raw data : the raw data of the Human Activity Recognition Using Smartphones (UCI HAR).
+[The UCI HAR Dataset folder](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) will be in the same working folder as 'run_analysis.R'
 3. A tidy data set : data set with the average of each variable for each activity and each subject (tidyData.csv).
 4. A code book  that describes each variable and its values in the tidy data set, the data, and any transformations or work that you performed to clean up the data describing  (CodeBook.md).  
 5. An explicit and exact recipe I used to go from 2 -> 3,4 (run_analysis.R)
@@ -20,29 +20,29 @@ This project includes the following files:
 The raw data includes the following files:
 ==========================================
 
-- '[rawData] README' : Explains the Human Activity Recognition Using Smartphones Dataset
+- 'UCI HAR Dataset/README.txt' : Explains the Human Activity Recognition Using Smartphones Dataset
 
-- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'UCI HAR Dataset/features_info.txt': Shows information about the variables used on the feature vector.
 
-- 'features.txt': List of all features.
+- 'UCI HAR Dataset/features.txt': List of all features.
 
-- 'activity_labels.txt': Links the class labels with their activity name.
+- 'UCI HAR Dataset/activity_labels.txt': Links the class labels with their activity name.
 
-- 'train/X_train.txt': Training set.
+- 'UCI HAR Dataset/train/X_train.txt': Training set.
 
-- 'train/y_train.txt': Training labels.
+- 'UCI HAR Dataset/train/y_train.txt': Training labels.
 
-- 'test/X_test.txt': Test set.
+- 'UCI HAR Dataset/test/X_test.txt': Test set.
 
-- 'test/y_test.txt': Test labels.
+- 'UCI HAR Dataset/test/y_test.txt': Test labels.
 
 The following files are available for the train and test data. Their descriptions are equivalent. 
 
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- 'UCI HAR Dataset/train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+- 'UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+- 'UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+- 'UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
