@@ -1,7 +1,5 @@
-==================================================================
 Getting and Cleaning Data Course Project
-Version 1.0
-==================================================================
+========================================
 
 The purpose of this project is to prepare tidy data that can be used for later analysis. For that, The Human Activity Recognition Using Smartphones Dataset has been used. This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
